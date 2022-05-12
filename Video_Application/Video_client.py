@@ -20,8 +20,9 @@ from PyQt5.QtCore import *
 ## TESTING ##
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # hardcoded host_ip value of the server that recieves the video packets
-host_ip = "10.14.25.26"
+#host_ip = "10.14.25.26"
 #host_ip = "10.9.169.204"
+host_ip = "192.168.1.19"
 # Arbitrary port number
 port = 9999
 # Connect the client socket to the server
@@ -36,6 +37,7 @@ client_text_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # hardcoded host_ip value of the server that recieves the video packets
 #host_ip = "10.14.25.26"
 #host_ip = "10.9.169.204"
+host_ip = "192.168.1.19"
 # Arbitrary port number
 text_port = 9998
 # Connect the client socket to the server
